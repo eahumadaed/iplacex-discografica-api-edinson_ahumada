@@ -12,10 +12,3 @@ public class DiscografiaApplication {
 
 }
 
-@RestController
-public class HelloController {
-    @GetMapping("/")
-    public String index() {
-        return "¡Bienvenido a la API de discografías!";
-    }
-}
